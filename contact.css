@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  header{
+    background-color: rgb(238, 133, 186);
+    height:90px;
+}
+footer{
+    background-color: rgb(238, 133, 186);
+    height:100px;
+}
+
+h2{
+    color: white;
+}

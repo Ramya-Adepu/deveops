@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <style>
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover {
+            background-color: #111;
+          }
+
+          .circle-txt {
+  /* (E1) CENTER TEXT IN CIRCLE */
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+ 
+  /* (E2) THE FONT - NOT REALLY IMPORTANT */
+  font-family: arial, sans-serif;
+  font-weight: bold;
+}
+          </style>
+</head>
+<header>
+   <h1>My Portfolio</h1>
+   <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="Aboutme.html"><span >About me</span></a></li>
+    <li><a href="Qualifications.html">Qualifications</a></li>
+    <li><a href="Projects.html">Projects</a></li>
+    <li><a href="Contactme.html">Contactme</a></li>
+  </ul>
+</header>
+
+<body>
+    <div class="row">
+        <div class="column left" style="background-color:#aaa;">
+          <h2><center>Adepu Ramya</center></h2>
+          <div style="text-align: left"><img src="images/Ramya.jpg" width="90%" height="130%" margin-left="5"/></div>
+        </div>
+        <div class="column right" style="background-color:white;">
+          <center><h2 style="color: rgb(238, 133, 186);">About me</h2></center>
+          <div style="text-align:center">
+            <h1 style="color: rgb(238, 133, 186);">Welcome!</h1>
+            <a id="dot1" href="Aboutme.html" ><span style="text-align: center; color: #111; margin-top: 100%;">About me</span></a>
+            <a id="dot1" href="Qualifications.html">Qualifications</a>
+            <a id="dot1" href="Projects.html">My projects</a>
+            <a id="dot1" href="Contactme.html">Contact me</a>
+          </div>
+        </div>
+      </div>
+      
+</body>
+<footer>
+
+</footer>
+
+</html>

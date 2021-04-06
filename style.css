@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(182, 198, 226);
+}
+
+h2{
+    background-color:rgb(99, 99, 202);
+    text-align: center;
+    width: 350px;
+    height: 50px;
+}
+
+main{
+    border-radius: 50%;
+}

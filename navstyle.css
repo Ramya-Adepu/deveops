@@ -1,0 +1,42 @@
+body{
+    background-color: aliceblue;
+    margin:0px;
+    padding:0px;
+}
+header{
+    background-color: blue;
+    height:70px;
+}
+
+/* a{
+    color:white;
+    text-decoration: none;
+} */
+
+#left-nav{
+    float:left;
+}
+
+#right-nav li{
+    display:both;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#right-nav{
+    float:inline-block;
+    margin:10px;
+}
+
+footer{
+    clear: both;
+    background:blue;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    color:brown;
+}
+
+
